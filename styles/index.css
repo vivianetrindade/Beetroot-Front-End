@@ -1,0 +1,61 @@
+* {
+  font-family:sans-serif;
+}
+.card-container{
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  align: center;
+  text-align: center;
+  width: 350px;
+  padding: 20px;
+  margin:30px auto;
+  border-radius:10px;
+  border: 5px solid darkviolet;
+  background-color: violet;
+  color: darkviolet;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ;
+}
+.card:hover{
+  background-color: white;
+  transform: scale(1.1) rotate(-10deg);
+  box-shadow: 0px 0px 30px violet;
+}
+
+.background-ellipse{
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  z-index: -1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.blogtitle, .description{
+  color: purple;
+}
+img {
+  min-width:100%;
+  min-height: 100%;
+}
+
+.image-container{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+}
+h1 {
+  color: darkviolet;
+  text-align: center;
+  font-size: 50px;
+}
